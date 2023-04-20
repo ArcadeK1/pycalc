@@ -3,7 +3,7 @@ def calc (a, action, b):
     if action == '/':
         result += a/b;
     else:
-        raise ValueError ("Допускается только действие + ; = ; или * .")
+        raise ValueError ("Допускается только деление")
     return result;
 
 
